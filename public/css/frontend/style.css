@@ -1,0 +1,30 @@
+body {
+	padding-top: 15px;
+	font-family: Arial,sans-serif;
+}
+div.well {
+	width: 300px;
+	height: 530px;
+	max-height: 530px;
+	overflow: auto;
+}
+.caption {
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+}
+div.caption h4 {
+	font-family: Arial,sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+a:link {
+	text-decoration: none;
+}
+/*.thumbnail { min-height:230px; height:230px; }*/
+.row.display-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.thumbnail {
+	height: 100%;
+}
